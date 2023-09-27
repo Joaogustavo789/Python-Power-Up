@@ -41,7 +41,9 @@ pyautogui.press("enter")
 
 #TODO Passo 3: Importar a base de dados de produtos.
 tabela = pd.read_csv("produtos.csv")
-tabela2 = tabela.head(3)
+
+#? Variavel criada para usar no laço for apenas 5 produtos da base de dados.
+tabela2 = tabela.head(5)
 
 #TODO Passo 4: Cadastrar todos os produtos.
 time.sleep(3)

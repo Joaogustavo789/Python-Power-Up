@@ -60,7 +60,7 @@ Olá, sejam bem vindos ao repositório! `Python-Power-Up` é um projeto de autom
   python3 nome_do_arquivo.py
 ```
 
-- Sair do ambiente virtual:
+#### OBS: Caso queira sair do ambiente virtual, basta rodar o seguinte comando:
 
 ```bash
   deactivate

@@ -39,31 +39,31 @@ Olá, sejam bem vindos ao repositório! `Python-Power-Up` é um projeto de autom
 - Criar um ambiente virtual:
 
 ```bash
-python3 -m venv .venv
+  python3 -m venv .venv
 ```
 
 - Acessar o ambiente virtual:
 
 ```bash
-source .venv/bin/activate
+  source .venv/bin/activate
 ```
 
 - Instalar as dependências dentro do ambiente virtual:
 
 ```bash
-pip install nome_do_pacote
+  pip install nome_do_pacote
 ```
 
 - Executar código python dentro do ambiente virtual:
 
 ```bash
-python3 nome_do_arquivo.py
+  python3 nome_do_arquivo.py
 ```
 
 - Sair do ambiente virtual:
 
 ```bash
-deactivate
+  deactivate
 ```
 
 </details>

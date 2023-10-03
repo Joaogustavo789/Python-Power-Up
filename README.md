@@ -68,6 +68,37 @@ Olá, sejam bem vindos ao repositório! `Python-Power-Up` é um projeto de autom
 
 </details>
 
+## Funcionamento
+
+<details>
+    <summary>Clique para expandir</summary>
+<br>
+
+- Para aplicação funcionar corretamente, basta rodar o seguinte comando dentro do ambiente virtual:
+
+```bash
+  python3 codigo.py
+```
+
+Após rodar o comando ele irá abrir área de trabalho, procurar pelo navegador, abrir o navegador, digitar a url fornecida, fazer o login, cadastrar todos os produtos.
+
+#### OBS: Dependendo da máquina que estiver rodando, poderá haver a necessidade de alteração no código.
+##### - Exemplos:
+
+- Caso tenha problemas com posicionamentos, o arquivo `posicao.py` irá fornecer a posição exata do mouse após 5 segundos. Para executa-lo, basta rodar o seguinte comando:
+
+```bash
+  python3 posicao.py
+```
+
+- Caso tenha problemas com tempo de espera, a solução é adaptando os tempos de acordo com sua máquina.
+
+- Caso o navegador padrão seja diferente, basta trocar o nome pelo o navegador que utiliza.
+
+- Se estiver utilizando o Macbook, troque o nome da tecla `win` pela `cmd`
+
+</details>
+
 ## Documentação
 
 - [Python](https://www.python.org/)

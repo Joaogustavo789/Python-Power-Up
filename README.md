@@ -68,6 +68,15 @@ Olá, sejam bem vindos ao repositório! `Python-Power-Up` é um projeto de autom
 
 </details>
 
+## Demonstração
+
+<details>
+    <summary>Clique para expandir</summary>
+<br>
+
+  ![Gif da aplicação](https://github.com/Joaogustavo789/Python-Power-Up/assets/99046967/cb0e85f3-09a1-4ce0-84d6-9957396b6cf1)
+</details>
+
 ## Funcionamento
 
 <details>

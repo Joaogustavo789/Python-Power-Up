@@ -11,7 +11,7 @@ import pandas as pd
 #* pyautogui.press -> apertar 1 tecla.
 #* pyautogui.hotkey -> atalho (combinação de teclas).
 
-pyautogui.PAUSE = 1 #! Pausa para cada comando do pyautogui.
+pyautogui.PAUSE = 0.6 #! Pausa para cada comando do pyautogui.
 
 #? abrir o navegador
 pyautogui.press("win")
@@ -43,38 +43,38 @@ pyautogui.press("enter")
 tabela = pd.read_csv("produtos.csv")
 
 #? Variavel criada para usar no laço for apenas 5 produtos da base de dados.
-tabela2 = tabela.head(5)
+tabela2 = tabela.head(4)
 
 #TODO Passo 4: Cadastrar todos os produtos.
-time.sleep(3)
 
 for produto in tabela2.index:
     pyautogui.click(x=1844, y=310)
 
-    codigo = tabela.loc[produto, "codigo"]
-    marca = tabela.loc[produto, "marca"]
-    tipo = tabela.loc[produto, "tipo"]
-    categoria = tabela.loc[produto, "categoria"]
-    preco_unitario = tabela.loc[produto, "preco_unitario"]
-    custo = tabela.loc[produto, "custo"]
-    obs = tabela.loc[produto, "obs"]
+    codigo = tabela["codigo"].tolist()
+    marca = tabela["marca"].tolist()
+    tipo = tabela["tipo"].tolist()
+    categoria = tabela["categoria"].tolist()
+    preco_unitario = tabela["preco_unitario"].tolist()
+    custo = tabela["custo"].tolist()
+    obs = tabela["obs"].tolist()
 
     #? preencher os campos
-    pyautogui.write(str(codigo))
+    pyautogui.write(str(codigo[produto]))
     pyautogui.press("tab")
-    pyautogui.write(str(marca))
+    pyautogui.write(str(marca[produto]))
     pyautogui.press("tab")
-    pyautogui.write(str(tipo))
+    pyautogui.write(str(tipo[produto]))
     pyautogui.press("tab")
-    pyautogui.write(str(categoria))
+    pyautogui.write(str(categoria[produto]))
     pyautogui.press("tab")
-    pyautogui.write(str(preco_unitario))
+    pyautogui.write(str(preco_unitario[produto]))
     pyautogui.press("tab")
-    pyautogui.write(str(custo))
+    pyautogui.write(str(custo[produto]))
     pyautogui.press("tab")
-    if not pd.isna(obs):
-        pyautogui.write(str(obs))
+    if not pd.isna(obs[produto]):
+        pyautogui.write(str(obs[produto]))
     pyautogui.press("tab")
     pyautogui.press("enter")
+    time.sleep(0.5)
 
-    pyautogui.scroll(5000) #! Ir para o topo da página.
+    pyautogui.scroll(1000) #! Ir para o topo da página.

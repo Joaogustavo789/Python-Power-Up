@@ -100,11 +100,22 @@ Após rodar o comando ele irá abrir área de trabalho, procurar pelo navegador,
   python3 posicao.py
 ```
 
+![posicao-click](https://github.com/Joaogustavo789/Python-Power-Up/assets/99046967/14b9ea59-7a1d-4170-a7d6-25d8a5406e3c)
+
 - Caso tenha problemas com tempo de espera, a solução é adaptando os tempos de acordo com sua máquina.
+
+  ![tempo-espera](https://github.com/Joaogustavo789/Python-Power-Up/assets/99046967/62ee6758-b5ff-465c-b6b1-4ca493b54bba)
 
 - Caso o navegador padrão seja diferente, basta trocar o nome pelo o navegador que utiliza.
 
-- Se estiver utilizando o Macbook, troque o nome da tecla `win` pela `cmd`
+  ![navegador](https://github.com/Joaogustavo789/Python-Power-Up/assets/99046967/52aebfa1-846e-44d7-8986-ede1c284294b)
+
+
+- Se estiver utilizando o Macbook, troque o nome da tecla `win` pela `command`
+
+  ![print-teclas2](https://github.com/Joaogustavo789/Python-Power-Up/assets/99046967/287464eb-bce3-483a-b602-66ec1d17f28d)
+
+
 
 </details>
 

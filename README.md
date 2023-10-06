@@ -1,6 +1,6 @@
 # Python-Power-Up
 
-Olá, sejam bem vindos ao repositório! `Python-Power-Up` é um projeto de automação de cadastro de produtos, desenvolido em `Python` em conjunto com as bibliotecas `pandas` para dados e `pyautogui` que faz de fato a automação.
+Olá, sejam bem vindos ao repositório! `Python-Power-Up` é um projeto de automação de cadastro de produtos, desenvolvido em `Python` em conjunto com as bibliotecas `pandas` para dados e `pyautogui` que faz de fato a automação.
 
 ## Stack utilizada
 

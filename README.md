@@ -51,7 +51,7 @@ Olá, sejam bem vindos ao repositório! `Python-Power-Up` é um projeto de autom
 - Instalar as dependências dentro do ambiente virtual:
 
 ```bash
-  pip install nome_do_pacote
+  pip install pyautogui pandas
 ```
 
 - Executar código python dentro do ambiente virtual:
